@@ -30,7 +30,7 @@ include_directories(
 	${NCNN_GLSLANG_INCLUDE_DIRS}
 )
 
-add_executable(${PROJECT_NAME} src/parse-pose.cpp)
+add_executable(${PROJECT_NAME} parse-pose.cpp)
 target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})
 #target_link_libraries(${PROJECT_NAME} ncnn)
 
